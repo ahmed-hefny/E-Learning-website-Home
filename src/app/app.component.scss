@@ -1,0 +1,30 @@
+.display-1{
+    font-size: 4rem;
+}
+.bg-numbers{
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    will-change: transform, opacity, filter;
+    backface-visibility: hidden;
+    background-repeat: no-repeat;
+    z-index: 0;
+    opacity: 0.2;
+
+}
+.numbers-container {
+    position: relative;
+    height: 30rem;
+}
+@media only screen and (max-width: 768px) {
+    .display-1{
+        font-size: 3rem;
+    }
+
+}
+

@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    color: #002147;
+}
+.bg-main {
+    background-color: #002147;
+}
+.text-primary-color {
+    color: #002147 !important;
+}
+.bg-secondary-color {
+    background-color: #fdc800;
+}
+.text-secondary-color {
+    color: #fdc800;
+}
+.slider {
+    background-color: #f0f4f9;
+}
+.font-600{
+    font-weight: 600;
+}
+h1,h2 {
+    font-family: "DM Serif Display", cursive;
+}
+.main-title {
+    line-height: 1.2;
+    color: #002147;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
